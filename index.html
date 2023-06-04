@@ -1,1 +1,20 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IP Redirect</title>
+</head>
+<body>
+
+  <h1>Click the button to redirect to an IP address</h1>
+
+  <button onclick="redirectToIP()">Redirect</button>
+
+  <script>
+    function redirectToIP() {
+      var ipAddress = "192.168.0.98:3000"; // Replace with your desired IP address
+      window.location.href = "http://" + ipAddress;
+    }
+  </script>
+
+</body>
+</html>
